@@ -70,7 +70,7 @@ func commitAllFiles(branch string) {
 		panic(err)
 	}
 
-	err = exec.Command("git", "commit", "-m", "Emergency Commit From GitFire!").Run()
+	err = exec.Command("git", "commit", "-m", "🔥🔥 Emergency Commit From GitFire! 🔥🔥").Run()
 	if err != nil {
 		panic(err)
 	}
